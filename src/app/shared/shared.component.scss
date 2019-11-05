@@ -1,0 +1,114 @@
+.overlay-bg {
+   width: 100%;
+   height: 100%;
+}
+
+a  {
+   color: white;
+   text-decoration: none;
+}
+
+.overlay {
+   height: 100%;
+   width: 0;
+   position: fixed;
+   z-index: 1;
+   left: 0;
+   top: 0;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   overflow-x: hidden;
+   transition: 0.5s;
+}
+
+#top-link {
+   margin-top: 3vw;
+}
+
+.overlay .overlay-navLinks {
+   position: absolute;
+   top: 15%;
+   width: 100%;
+   text-align: center;
+   margin-bottom: 1vw;
+   font-family: "Times New Roman", serif;
+   font-weight: lighter;
+   font-size: 2.5vw;
+   color: white;
+   transition: 0.4s;
+}
+
+.overlay .overlay-navLinks .link {
+   margin-bottom: 1vw;
+}
+
+.overlay .close-btn  {
+   position: absolute;
+   top: 5px;
+   left: 2vw;
+   color: white;
+   font-size: 3.2vw;
+   text-decoration: none;
+   margin: 0;
+   padding: 0;
+}
+
+.overlay-navLinks .link a{
+   margin: 1vw 0 1vw 0;
+   padding: 0 2vw 0 2vw;
+   border-radius: 30px;
+}
+
+.topHeader  {
+   position: fixed;
+   top: 0;
+   margin: 0;
+   padding: 0;
+}
+
+.topHeader .open-btn   {
+   color: white;
+   font-size: 1.7vw;
+   margin: 0;
+   padding: 1vw;
+}
+
+.topHeader .open-btn:hover  {
+   cursor: pointer;
+   color: blue;
+}
+
+.open-btn i {
+   font-size: 1.7vw;
+}
+
+/* Hover styling for the overlay navigation.*/
+.overlay .overlay-navLinks .link a:hover  {
+   color: white;
+   background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) 10%, rgba(130, 128, 131, 0.8) 85%,
+         rgba(244, 255, 255, 0) 5%);
+   cursor: pointer;
+}
+
+#active  {
+   text-decoration: none;
+   color: white;
+   background-image: linear-gradient(180deg, rgba(22, 205, 227, 0) 10%, rgb(165, 209, 244) 85%,
+         rgba(244, 255, 255, 0) 5%);
+}
+
+@media screen and(max-width: 1500px)   {
+
+   .topHeader .open-btn   {
+      color: white;
+      font-size: 1.7vw;
+      margin: 0;
+      padding: 1vw;
+   }
+
+   .open-btn i {
+      font-size: 1.8vw;
+   }
+
+}

@@ -1,0 +1,49 @@
+
+.centerBox  {
+   position: fixed;
+   top: 15%;
+   left: 5%;
+   width: 90%;
+   height: 80%;
+}
+
+.aboutBg {
+   width: 100%;
+   height: 100%;
+   border-radius: 25px;
+}
+
+.about-header  {
+   position: fixed;
+   top: 7%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   font-family: "Times New Roman", serif;
+   font-weight: lighter;
+   font-size: 1.8vw;
+   color: white;
+   margin: 0;
+   padding: .1vw 1.6vw .1vw 1.6vw;
+   border: 1px solid white;
+}
+
+h1 {
+   margin: 0;
+   padding: 0;
+}
+
+.about-descriptionBox   {
+   width: 44%;
+   height: 76.5%;
+   position: absolute;
+   top: 16%;
+   left: 50%;
+   font-family: "Times New Roman", serif;
+   font-size: 1.1vw;
+   text-align: center;
+   color: black;
+}
+
+.about-descriptionBox  p   {
+   padding: .8vw;
+}

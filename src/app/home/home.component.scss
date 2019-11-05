@@ -1,0 +1,76 @@
+
+#home-bg {
+   position: fixed;
+   width: 100%;
+   height: 100%;
+   z-index: -2;
+}
+
+.page-header   {
+   position: fixed;
+   top: 4%;
+   left: 35%;
+   transform: translate(-50%, -50%);
+   font-family: "Times New Roman", serif;
+   font-weight: lighter;
+   font-size: 2vw;
+   color: #a7a7a7;
+}
+
+.name-png {
+   width: 95%;
+   height: auto;
+   position: absolute;
+   top: -5%;
+   left: 15%;
+}
+
+.portraitBox   {
+   position: absolute;
+   top: 25%;
+   left: 10%;
+   width: 50%;
+   height: 50%;
+   margin: 0;
+   padding: 0;
+   background-color: rgba(0, 0, 0, 0.53);
+   border-radius: 20px;
+}
+
+.shortAbout {
+   width: 100%;
+   font-family: "Times New Roman", sans-serif;
+   font-weight: lighter;
+   font-size: 1.5vw;
+   padding-top: 1.5vw;
+   text-align: center;
+   color: #f4ffff;
+}
+
+.portrait   {
+   width: 35%;
+   height: auto;
+   padding: 2px;
+   border: 1px solid #f4ffff;
+   border-radius: 50%;
+}
+
+#quote   {
+   position: absolute;
+   top: 50%;
+   left: 83%;
+   transform: translate(-50%, -50%);
+   width: 60%;
+   height: auto;
+   border: 1px solid white;
+}
+
+@media screen and(max-width: 1400px)   {
+
+   .name-png   {
+      position: absolute;
+      top: 27%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+   }
+}
