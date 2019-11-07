@@ -6,7 +6,8 @@ import {ContactComponent} from './contact/contact.component';
 import {ExperienceComponent} from './experience/experience.component';
 import {EducationComponent} from './education/education.component';
 import {ExtracurricularComponent} from './extracurricular/extracurricular.component';
-import {SpecialAchievementsComponent} from './special-achievements/special-achievements.component';
+import {InterestComponent} from './interest/interest.component';
+import {SkillsComponent} from './skills/skills.component';
 
 
 const ROUTES: Routes = [
@@ -34,8 +35,12 @@ const ROUTES: Routes = [
     component: EducationComponent,
   },
   {
-    path: 'specialAchievements',
-    component: SpecialAchievementsComponent
+    path: 'interest',
+    component: InterestComponent
+  },
+  {
+    path : 'skills',
+    component: SkillsComponent
   },
   {
     path: 'extracurricular',

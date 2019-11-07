@@ -6,9 +6,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./about.component.scss']
 })
 export class AboutComponent implements OnInit {
+  fullPageBg: string;
   aboutBg: string;
 
   constructor() {
+    this.fullPageBg = './assets/images/about-bg.png';
     this.aboutBg = './assets/images/About-background.png';
   }
 

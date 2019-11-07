@@ -9,10 +9,12 @@ import { EducationComponent } from './education/education.component';
 import { ExperienceComponent } from './experience/experience.component';
 import { ExtracurricularComponent } from './extracurricular/extracurricular.component';
 import { ContactComponent } from './contact/contact.component';
-import { SpecialAchievementsComponent } from './special-achievements/special-achievements.component';
+import { InterestComponent } from './interest/interest.component';
 import { SharedComponent } from './shared/shared.component';
-import {AppRoutingModule} from './app-routing.module';
-import {HttpClientModule} from '@angular/common/http';
+import { AppRoutingModule } from './app-routing.module';
+import { HttpClientModule } from '@angular/common/http';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { SkillsComponent } from './skills/skills.component';
 
 ;
 
@@ -25,13 +27,15 @@ import {HttpClientModule} from '@angular/common/http';
     ExperienceComponent,
     ExtracurricularComponent,
     ContactComponent,
-    SpecialAchievementsComponent,
-    SharedComponent
+    InterestComponent,
+    SharedComponent,
+    SkillsComponent
   ],
   imports: [
       BrowserModule,
       AppRoutingModule,
       AngularFontAwesomeModule,
+      NgbModule,
       HttpClientModule
       ],
   bootstrap: [AppComponent]

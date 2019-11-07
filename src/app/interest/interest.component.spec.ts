@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { SpecialAchievementsComponent } from './special-achievements.component';
+import { InterestComponent } from './interest.component';
 
 describe('SpecialAchievementsComponent', () => {
-  let component: SpecialAchievementsComponent;
-  let fixture: ComponentFixture<SpecialAchievementsComponent>;
+  let component: InterestComponent;
+  let fixture: ComponentFixture<InterestComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ SpecialAchievementsComponent ]
+      declarations: [ InterestComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(SpecialAchievementsComponent);
+    fixture = TestBed.createComponent(InterestComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

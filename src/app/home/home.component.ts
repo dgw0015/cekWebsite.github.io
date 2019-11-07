@@ -10,12 +10,13 @@ export class HomeComponent implements OnInit {
  portrait: string;
  quoteImg: string;
  homeBg: string;
+ clouds: string;
 
   constructor() {
-    this.name = './assets/images/home-bg.png';
     this.portrait = './assets/images/CEK-transparent.png';
-    this.quoteImg = './assets/images/Quote-image.png';
-    this.homeBg = './assets/images/home-bg2.png';
+    this.quoteImg = './assets/images/quote.png';
+    this.homeBg = './assets/images/Mountains.png';
+    this.clouds = './assets/images/clouds.png';
   }
 
   ngOnInit() {

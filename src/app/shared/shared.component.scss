@@ -1,11 +1,19 @@
 .overlay-bg {
    width: 100%;
    height: 100%;
+   z-index: -2;
 }
 
 a  {
    color: white;
+   width: auto;
    text-decoration: none;
+}
+
+.overlay-navLinks .link {
+   margin-left: 40%;
+   width: 18%;
+   height: auto;
 }
 
 .overlay {
@@ -19,24 +27,21 @@ a  {
    background-repeat: no-repeat;
    background-size: cover;
    overflow-x: hidden;
-   transition: 0.5s;
+   transition: 0.4s;
 }
 
-#top-link {
-   margin-top: 3vw;
+.display-3  {
+   font-size: 3.3vw;
 }
 
 .overlay .overlay-navLinks {
    position: absolute;
-   top: 15%;
+   top: 5%;
    width: 100%;
    text-align: center;
-   margin-bottom: 1vw;
-   font-family: "Times New Roman", serif;
-   font-weight: lighter;
-   font-size: 2.5vw;
    color: white;
-   transition: 0.4s;
+   transition: 0.5s;
+   z-index: 1;
 }
 
 .overlay .overlay-navLinks .link {
@@ -45,19 +50,14 @@ a  {
 
 .overlay .close-btn  {
    position: absolute;
-   top: 5px;
+   top: 2px;
    left: 2vw;
    color: white;
    font-size: 3.2vw;
    text-decoration: none;
    margin: 0;
    padding: 0;
-}
-
-.overlay-navLinks .link a{
-   margin: 1vw 0 1vw 0;
-   padding: 0 2vw 0 2vw;
-   border-radius: 30px;
+   z-index: 2;
 }
 
 .topHeader  {
@@ -76,29 +76,106 @@ a  {
 
 .topHeader .open-btn:hover  {
    cursor: pointer;
-   color: blue;
+   color: #babab9;
 }
 
 .open-btn i {
    font-size: 1.7vw;
 }
 
+
+/* All the fog styling for the active page overlay navigation*/
+#home  {
+   position: absolute;
+   top: 4.5%;
+   left: 41%;
+   width: 16%;
+   height: 5vw;
+   visibility: visible;
+   z-index: 0;
+}
+
+#about  {
+   position: absolute;
+   top: 15%;
+   left: 41%;
+   width: 16%;
+   height: 5vw;
+   visibility: hidden;
+   z-index: 0;
+}
+
+#education {
+   position: absolute;
+   top: 25%;
+   left: 41%;
+   width: 17%;
+   height: 5vw;
+   visibility: hidden;
+   z-index: 0;
+}
+
+#experience   {
+   position: absolute;
+   top: 35%;
+   left: 41%;
+   width: 17%;
+   height: 5vw;
+   visibility: hidden;
+   z-index: 0;
+}
+
+#extra  {
+   position: absolute;
+   top: 45%;
+   left: 38.5%;
+   width: 22%;
+   height: 5vw;
+   visibility: hidden;
+   z-index: 0;
+}
+
+#interest  {
+   position: absolute;
+   top: 55%;
+   left: 41%;
+   width: 16%;
+   height: 5vw;
+   visibility: hidden;
+   z-index: 0;
+}
+
+#skills {
+   position: absolute;
+   top: 65%;
+   left: 41%;
+   width: 16%;
+   height: 5vw;
+   visibility: hidden;
+   z-index: 0;
+}
+
+#contact   {
+   position: absolute;
+   top: 76%;
+   left: 41%;
+   width: 16%;
+   height: 5vw;
+   visibility: hidden;
+   z-index: 0;
+}
+
 /* Hover styling for the overlay navigation.*/
-.overlay .overlay-navLinks .link a:hover  {
-   color: white;
-   background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) 10%, rgba(130, 128, 131, 0.8) 85%,
-         rgba(244, 255, 255, 0) 5%);
+.overlay .overlay-navLinks .link :hover  {
+   color: aqua;
    cursor: pointer;
 }
 
 #active  {
-   text-decoration: none;
-   color: white;
-   background-image: linear-gradient(180deg, rgba(22, 205, 227, 0) 10%, rgb(165, 209, 244) 85%,
-         rgba(244, 255, 255, 0) 5%);
+   color: aqua;
 }
 
-@media screen and(max-width: 1500px)   {
+@media screen and(max-width: 1300px)   {
 
    .topHeader .open-btn   {
       color: white;
