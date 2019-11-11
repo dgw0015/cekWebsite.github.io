@@ -6,8 +6,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./skills.component.scss']
 })
 export class SkillsComponent implements OnInit {
+  skillsBg: string;
 
-  constructor() { }
+  constructor() {
+    this.skillsBg = './assets/images/skillsBg.png';
+  }
 
   ngOnInit() {
   }

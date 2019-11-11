@@ -17,7 +17,6 @@ import { Component, OnInit, Renderer2 } from '@angular/core';
       <img [src]="fogExtra" alt="low floating fog" id="extra" />
       <img [src]="fogInterest" alt="low floating fog" id="interest" />
       <img [src]="fogSkills" alt="low floating fog" id="skills" />
-      <img [src]="fogContact" alt="low floating fog" id="contact" />
 
       <!-- Navigation when home is the active page. -->
       <div class="overlay-navLinks" *ngIf="getActive() === 'home'">
@@ -48,10 +47,6 @@ import { Component, OnInit, Renderer2 } from '@angular/core';
         <div class="link">
           <a target="_self"
              [routerLink]="['/skills']" (click)="setActive('skills', 'home')"><h1 class="display-3">Skills</h1></a>
-        </div>
-        <div class="link">
-          <a target="_self"
-             [routerLink]="['/contact']" (click)="setActive('contact', 'home')"><h1 class="display-3">Contact</h1></a>
         </div>
       </div>
 
@@ -85,10 +80,6 @@ import { Component, OnInit, Renderer2 } from '@angular/core';
           <a target="_self"
              [routerLink]="['/skills']" (click)="setActive('skills', 'about')"><h1 class="display-3">Skills</h1></a>
         </div>
-        <div class="link">
-          <a target="_self"
-             [routerLink]="['/contact']" (click)="setActive('contact', 'about')"><h1 class="display-3">Contact</h1></a>
-        </div>
       </div>
 
       <!-- Navigation when education is the active page. -->
@@ -120,10 +111,6 @@ import { Component, OnInit, Renderer2 } from '@angular/core';
         <div class="link">
           <a target="_self"
              [routerLink]="['/skills']" (click)="setActive('skills', 'education')"><h1 class="display-3">Skills</h1></a>
-        </div>
-        <div class="link">
-          <a target="_self"
-             [routerLink]="['/contact']" (click)="setActive('contact', 'education')"><h1 class="display-3">Contact</h1></a>
         </div>
       </div>
 
@@ -157,10 +144,6 @@ import { Component, OnInit, Renderer2 } from '@angular/core';
           <a target="_self"
              [routerLink]="['/skills']" (click)="setActive('skills', 'experience')"><h1 class="display-3">Skills</h1></a>
         </div>
-        <div class="link">
-          <a target="_self"
-             [routerLink]="['/contact']" (click)="setActive('contact', 'experience')"><h1 class="display-3">Contact</h1></a>
-        </div>
       </div>
 
       <!-- Navigation when extracurricular is the active page. -->
@@ -192,10 +175,6 @@ import { Component, OnInit, Renderer2 } from '@angular/core';
         <div class="link">
           <a target="_self"
              [routerLink]="['/skills']" (click)="setActive('skills', 'extra')"><h1 class="display-3">Skills</h1></a>
-        </div>
-        <div class="link">
-          <a target="_self"
-             [routerLink]="['/contact']" (click)="setActive('contact', 'extra')"><h1 class="display-3">Contact</h1></a>
         </div>
       </div>
 
@@ -229,10 +208,6 @@ import { Component, OnInit, Renderer2 } from '@angular/core';
           <a target="_self"
              [routerLink]="['/skills']" (click)="setActive('skills', 'interest')"><h1 class="display-3">Skills</h1></a>
         </div>
-        <div class="link">
-          <a target="_self"
-             [routerLink]="['/contact']" (click)="setActive('contact', 'interest')"><h1 class="display-3">Contact</h1></a>
-        </div>
       </div>
 
       <!-- Navigation when skills is the active page. -->
@@ -264,10 +239,6 @@ import { Component, OnInit, Renderer2 } from '@angular/core';
         <div class="link">
           <a target="_self"
              [routerLink]="['/skills']" id="active"><h1 class="display-3">Skills</h1></a>
-        </div>
-        <div class="link">
-          <a target="_self"
-             [routerLink]="['/contact']" (click)="setActive('contact', 'skills')"><h1 class="display-3">Contact</h1></a>
         </div>
       </div>
 
@@ -301,10 +272,6 @@ import { Component, OnInit, Renderer2 } from '@angular/core';
           <a target="_self"
              [routerLink]="['/skills']" (click)="setActive('skills', 'contact')"><h1 class="display-3">Skills</h1></a>
         </div>
-        <div class="link">
-          <a target="_self"
-             [routerLink]="['/contact']" id="active"><h1 class="display-3">Contact</h1></a>
-        </div>
       </div>
 
     </div>
@@ -326,7 +293,6 @@ export class SharedComponent implements OnInit {
   fogExtra: string;
   fogInterest: string;
   fogSkills: string;
-  fogContact: string;
 
 
   constructor(private renderer: Renderer2) {
@@ -338,7 +304,6 @@ export class SharedComponent implements OnInit {
     this.fogExtra = './assets/images/fog-low.png';
     this.fogInterest = './assets/images/fog-low.png';
     this.fogSkills = './assets/images/fog-low.png';
-    this.fogContact = './assets/images/fog-low.png';
   }
 
   ngOnInit() {

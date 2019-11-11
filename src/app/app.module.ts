@@ -8,15 +8,14 @@ import { AboutComponent } from './about/about.component';
 import { EducationComponent } from './education/education.component';
 import { ExperienceComponent } from './experience/experience.component';
 import { ExtracurricularComponent } from './extracurricular/extracurricular.component';
-import { ContactComponent } from './contact/contact.component';
 import { InterestComponent } from './interest/interest.component';
 import { SharedComponent } from './shared/shared.component';
 import { AppRoutingModule } from './app-routing.module';
 import { HttpClientModule } from '@angular/common/http';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { SkillsComponent } from './skills/skills.component';
+import { WritingSamplesComponent } from './writing-samples/writing-samples.component';
 
-;
 
 @NgModule({
   declarations: [
@@ -26,10 +25,10 @@ import { SkillsComponent } from './skills/skills.component';
     EducationComponent,
     ExperienceComponent,
     ExtracurricularComponent,
-    ContactComponent,
     InterestComponent,
     SharedComponent,
-    SkillsComponent
+    SkillsComponent,
+    WritingSamplesComponent
   ],
   imports: [
       BrowserModule,
