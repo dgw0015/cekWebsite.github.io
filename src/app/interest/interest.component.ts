@@ -13,6 +13,7 @@ export class InterestComponent implements OnInit {
   menu: string;
   som: string;
   pieChart: string;
+  pieChartRef: string;
 
   constructor(private renderer: Renderer2) {
     this.roseBg = './assets/images/roseBg.png';
@@ -22,6 +23,7 @@ export class InterestComponent implements OnInit {
     this.menu = './assets/images/menu1.png';
     this.som = './assets/images/masterSom.jpg';
     this.pieChart = './assets/images/Top-15-wine.png';
+    this.pieChartRef = './assets/images/pieChartRef.png';
   }
 
   ngOnInit() {

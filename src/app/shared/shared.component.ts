@@ -1,22 +1,64 @@
-import { Component, OnInit, Renderer2 } from '@angular/core';
+import {Component, OnInit, Renderer2} from '@angular/core';
 
 
 @Component({
   selector: 'app-header',
   template: `
-    <div id="nav" class="overlay">
-      <a href= "javascript:void(0)" class="close-btn"
+      
+    <div class="topNav" *ngIf="screenWidth <= 576">
+      <!-- Mobile Devices-->
+      <div class="pos-f-t">
+        <div class="collapse" id="navbarToggleExternalContent">
+          <div class="bg-dark p-4">
+            <h5 class="text-white h4">Welcome!</h5>
+            <span class="text-muted" id="topLink">
+              <a target="_self"
+                 [routerLink]="['/home']" (click)="setActive('home', 'home')">Home</a>
+            </span>
+            <br>
+            <span class="text-muted">
+              <a target="_self"
+                 [routerLink]="['/about']" (click)="setActive('about', getPrevActive())">About</a>
+            </span>
+            <br>
+            <span class="text-muted">
+              <a target="_self"
+                 [routerLink]="['/education']" (click)="setActive('education', getPrevActive())">Education</a>
+            </span>
+            <br>
+            <span class="text-muted">
+            <a target="_self"
+               [routerLink]="['/skills']" (click)="setActive('skills', getPrevActive())">Skills</a>
+            </span>
+          </div>
+        </div>
+        <nav class="navbar navbar-dark bg-dark">
+          <button class="navbar-toggler"
+                  type="button" data-toggle="collapse"
+                  data-target="#navbarToggleExternalContent" 
+                  aria-controls="navbarToggleExternalContent" 
+                  aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </nav>
+      </div>
+    </div>
+      
+    <div *ngIf="screenWidth > 576" id="nav" class="overlay">
+      <a href="javascript:void(0)" class="close-btn"
          (click)="closeNav('nav')">&times;
       </a>
-      <img [src]="overlayBg" class="overlay-bg" alt="background for the overlay menu" />
+      <img [src]="overlayBg" class="overlay-bg" alt="background for the overlay menu"/>
 
-      <img [src]="fog" alt="low floating fog" id="home" />
-      <img [src]="fogAbout" alt="low floating fog" id="about" />
-      <img [src]="fogEducation" alt="low floating fog" id="education" />
-      <img [src]="fogExperience" alt="low floating fog" id="experience" />
-      <img [src]="fogExtra" alt="low floating fog" id="extra" />
-      <img [src]="fogInterest" alt="low floating fog" id="interest" />
-      <img [src]="fogSkills" alt="low floating fog" id="skills" />
+      <img [src]="fog" alt="low floating fog" id="home"/>
+      <img [src]="fogAbout" alt="low floating fog" id="about"/>
+      <img [src]="fogEducation" alt="low floating fog" id="education"/>
+      <img [src]="fogExperience" alt="low floating fog" id="experience"/>
+      <img [src]="fogExtra" alt="low floating fog" id="extra"/>
+      <img [src]="fogInterest" alt="low floating fog" id="interest"/>
+      <img [src]="fogSkills" alt="low floating fog" id="skills"/>
+
+
 
       <!-- Navigation when home is the active page. -->
       <div class="overlay-navLinks" *ngIf="getActive() === 'home'">
@@ -275,7 +317,7 @@ import { Component, OnInit, Renderer2 } from '@angular/core';
       </div>
 
     </div>
-   <!-- Menu button in the upper left corner. -->
+    <!-- Menu button in the upper left corner. -->
     <div class="topHeader">
       <div class="open-btn" (click)="openNav('nav')"><i class="fas fa-bars"></i> Menu</div>
     </div>
@@ -293,7 +335,7 @@ export class SharedComponent implements OnInit {
   fogExtra: string;
   fogInterest: string;
   fogSkills: string;
-
+  screenWidth: any;
 
   constructor(private renderer: Renderer2) {
     this.overlayBg = './assets/images/overlayBg.png';
@@ -308,6 +350,7 @@ export class SharedComponent implements OnInit {
 
   ngOnInit() {
     this.active = 'home';
+    this.screenWidth = innerWidth;
   }
 
   setActive(page: string, prevActive: string): void {
@@ -318,8 +361,12 @@ export class SharedComponent implements OnInit {
   }
 
   getActive(): string   {
-     return this.active;
+      return this.active
   }
+
+  getPrevActive(): string {
+    return this.prevActive;
+}
 
   closeNav(object: string)  {
     const element: HTMLElement = document.getElementById(object);
@@ -332,13 +379,36 @@ export class SharedComponent implements OnInit {
   }
 
   hideAllNoneActiveClouds(activate: string, deactivate: string) {
-    // const fogElements: string[] = ['fog', 'fog-home', 'fog-about', 'fog-education', 'fog-experience',
-    //   'fog-extra', 'fog-interest', 'fog-skills', 'fog-contact'];
     const activeElement: HTMLElement = document.getElementById(activate);
     this.renderer.setStyle(activeElement, 'visibility', 'visible');
 
     const nonActiveElement: HTMLElement = document.getElementById(deactivate);
     this.renderer.setStyle(nonActiveElement, 'visibility', 'hidden');
   }
+
+  // toggleHideElement(): void {
+  //   let el;
+  //   if (this.getActive() === 'home')  {
+  //     el = 'header';
+  //     const element: HTMLElement = document.getElementById(el);
+  //     this.renderer.setStyle(element, 'visibility', 'hidden');
+  //   }
+  //   else if (this.getActive() === 'about')  {
+  //     el = 'about-header';
+  //     const element: HTMLElement = document.getElementById(el);
+  //     this.renderer.setStyle(element, 'visibility', 'hidden');
+  //   }
+  //   else if (this.getActive() === 'skills') {
+  //     el = 'skills-header';
+  //     const element: HTMLElement = document.getElementById(el);
+  //     this.renderer.setStyle(element, 'visibility', 'hidden');
+  //   }
+  //   else {
+  //     el = 'education-header';
+  //     const element: HTMLElement = document.getElementById(el);
+  //     this.renderer.setStyle(element, 'visibility', 'hidden');
+  //   }
+  //
+  // }
 
 }

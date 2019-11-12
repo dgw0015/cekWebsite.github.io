@@ -15,6 +15,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { SkillsComponent } from './skills/skills.component';
 import { WritingSamplesComponent } from './writing-samples/writing-samples.component';
+import {ScreenSizeService} from './screenSize.service';
 
 
 @NgModule({
@@ -28,7 +29,7 @@ import { WritingSamplesComponent } from './writing-samples/writing-samples.compo
     InterestComponent,
     SharedComponent,
     SkillsComponent,
-    WritingSamplesComponent
+    WritingSamplesComponent,
   ],
   imports: [
       BrowserModule,
@@ -37,6 +38,7 @@ import { WritingSamplesComponent } from './writing-samples/writing-samples.compo
       NgbModule,
       HttpClientModule
       ],
+  providers: [ScreenSizeService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

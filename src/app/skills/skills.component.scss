@@ -40,3 +40,76 @@
    font-size: 1.1vw;
    padding-bottom: 1vw;
 }
+
+.mobile-content-container  {
+   visibility: hidden;
+}
+
+@media screen and(max-width: 576px) {
+
+   .skillsBg   {
+      visibility: hidden;
+   }
+
+   .content-container   {
+      visibility: hidden;
+   }
+
+   .mobile-content-container   {
+      visibility: visible;
+      width: 100%;
+      height: 100%;
+      z-index: -2;
+      margin: 0;
+      padding: 0;
+   }
+
+   .mobileBg   {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: -2;
+   }
+
+   .display-3  {
+      position: absolute;
+      top: .5%;
+      left: 65%;
+      width: 30%;
+      height: auto;
+      font-size: 10vw;
+      text-align: right;
+      transform: none;
+      border: none;
+   }
+
+   .skills-list-mobile  {
+      position: absolute;
+      top: 15%;
+      left: 2%;
+      width: 95%;
+      height: auto;
+      color: white;
+   }
+
+   .questions  {
+      font-size: 9vw;
+   }
+
+   .list-group-item  {
+     font-size:  5.5vw;
+   }
+
+   .q  {
+      padding-top: 10px;
+      font-size: 4.5vw;
+   }
+
+   .resumeBtn button {
+      margin: 20px 0 10px 24vw;
+      color: white;
+   }
+
+}

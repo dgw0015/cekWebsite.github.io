@@ -11,7 +11,9 @@ export class AboutComponent implements OnInit {
   facebook: string;
   linkedin: string;
   pinterest: string;
-  hikingDenver: string;
+  aboutBg2: string;
+  natureBg2: string;
+  width = innerWidth;
 
   constructor() {
     this.fullPageBg = './assets/images/about-bg.png';
@@ -19,6 +21,8 @@ export class AboutComponent implements OnInit {
     this.facebook = 'https://www.facebook.com/charlton.kam';
     this.linkedin = 'https://www.linkedin.com/in/charlton-kam-ba81b5176/';
     this.pinterest = 'https://www.pinterest.com/auburnthunder17/';
+    this.aboutBg2 = './assets/mobile-imgs/about.png';
+    this.natureBg2 = './assets/mobile-imgs/natureBg2.png';
   }
 
   ngOnInit() {

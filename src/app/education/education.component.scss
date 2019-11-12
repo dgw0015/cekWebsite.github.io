@@ -208,6 +208,10 @@
 
 @media screen and(max-width: 1300px)   {
 
+   .toomersBg  {
+      height: 128%;
+   }
+
    .education-header {
       top: 8.5%;
    }
@@ -216,14 +220,120 @@
       font-size: 3.7vw;
    }
 
-   .topScreen-overlayBox   {
-      position: absolute;
-      top: 0;
-      height: 19%;
+   .AU-grad-info  {
+      top: 35%;
    }
 
-   #wholeScreenOverlay  {
-      top: 19.1%;
+   .specialAch {
+      height: 35%;
+   }
+   #achievementsTitle {
+      padding-top: 6vw;
+   }
+
+   #achievementsTxt  {
+      margin-bottom: 0;
+   }
+
+   #awardsTitle   {
+      margin: 0;
+      padding: 0;
+   }
+
+   .topScreen-overlayBox {
+      height: 228%;
+   }
+
+   .switching-major  {
+      top: 28%;
+   }
+
+   .lead {
+      font-size: 1.5vw;
+   }
+
+}
+
+@media screen and(max-width: 576px) {
+
+   .education-header  {
+      position: absolute;
+      top: .5%;
+      left: 52%;
+      width: 40%;
+      height: auto;
+      text-align: right;
+      transform: none;
+      border: none;
+   }
+
+   h1.display-3  {
+      font-size: 10vw;
+   }
+
+   .education-bg  {
+      visibility: hidden;
+   }
+
+   .toomersBg  {
+      visibility: hidden;
+   }
+
+   .writingSample-link-box {
+      visibility: hidden;
+   }
+
+   .AU-top  {
+      visibility: hidden;
+   }
+
+   .AU-grad-info  {
+      visibility: hidden;
+   }
+
+   .specialAch {
+      visibility: hidden;
+   }
+
+   .switching-major  {
+      visibility: hidden;
+   }
+
+   .AU-courses {
+      visibility: hidden;
+   }
+
+   .page-content  {
+      width: 100%;
+      height: auto;
+      z-index: -1;
+   }
+
+   h5.card-title  {
+      font-size: 10vw;
+      text-decoration: underline;
+      text-decoration-color: black;
+   }
+
+   .card-text  {
+      font-size: 4vw;
+   }
+
+   h6.card-subtitle  {
+      font-size: 6.5vw;
+      padding-bottom: 10px;
+   }
+
+   .spacerBg   {
+      width: 100%;
+      height: 10px;
+      margin: 0;
+      padding: 0;
+      background-color: black;
+   }
+
+   #logo {
+      padding: 15px;
    }
 
 }

@@ -1,5 +1,7 @@
 import { NgModule } from '@angular/core';
-import { Routes, RouterModule } from '@angular/router';
+import {Routes, RouterModule, PreloadAllModules, Router} from '@angular/router';
+
+
 import {HomeComponent} from './home/home.component';
 import {AboutComponent} from './about/about.component';
 import {ExperienceComponent} from './experience/experience.component';
@@ -10,17 +12,17 @@ import {SkillsComponent} from './skills/skills.component';
 import {WritingSamplesComponent} from './writing-samples/writing-samples.component';
 
 
-const ROUTES: Routes = [
+const desktopRoutes: Routes = [
   {
-    path: '', redirectTo: 'home', pathMatch: 'full'
+    path: '', component: HomeComponent
   },
   {
     path: 'home',
-    component: HomeComponent,
+    component: HomeComponent
   },
   {
     path: 'about',
-    component: AboutComponent,
+    component: AboutComponent
   },
   {
     path: 'writing/samples',
@@ -28,11 +30,11 @@ const ROUTES: Routes = [
   },
   {
     path: 'experience',
-    component: ExperienceComponent,
+    component: ExperienceComponent
   },
   {
     path: 'education',
-    component: EducationComponent,
+    component: EducationComponent
   },
   {
     path: 'interest',
@@ -45,11 +47,12 @@ const ROUTES: Routes = [
   {
     path: 'extracurricular',
     component: ExtracurricularComponent
-  }
+  },
 ];
 
+
 @NgModule({
-  imports: [RouterModule.forRoot(ROUTES)],
+  imports: [RouterModule.forRoot(desktopRoutes)],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }

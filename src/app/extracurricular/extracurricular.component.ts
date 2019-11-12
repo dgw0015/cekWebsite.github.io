@@ -6,12 +6,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./extracurricular.component.scss']
 })
 export class ExtracurricularComponent implements OnInit {
-  winterBg: string;
+  flowersBg: string;
   sorority: string;
   emerge: string;
 
   constructor() {
-    this.winterBg = './assets/images/extraBg.png';
+    this.flowersBg = './assets/images/hearts.png';
     this.sorority = './assets/images/sorority 1.jpeg';
     this.emerge = './assets/images/emerge.png';
   }

@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
+import {ScreenSizeService} from './screenSize.service';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,14 @@ import { Component } from '@angular/core';
     <router-outlet></router-outlet>
   `
 })
-export class AppComponent { }
+export class AppComponent implements OnInit {
+  width: any;
+
+  constructor(private screenSize: ScreenSizeService) {
+  }
+
+  ngOnInit(): void {
+    this.width = innerWidth;
+  }
+
+}

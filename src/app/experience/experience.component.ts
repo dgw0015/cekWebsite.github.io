@@ -17,7 +17,7 @@ export class ExperienceComponent implements OnInit {
   maysaraLogo: string;
   AuHotelLink: string;
   AuHotelLogo: string;
-  sunsetBg: string;
+  lightsBg: string;
   navy: string;
   white: string;
   black: string;
@@ -31,9 +31,9 @@ export class ExperienceComponent implements OnInit {
 
   constructor() {
     this.maysaraBg = './assets/images/outsideEvent.jpeg';
-    this.sunsetBg = './assets/images/interestBg.png';
+    this.lightsBg = './assets/images/interestBg.png';
     this.resumeDownloadLink = './assets/Charlton Resume updated 10_14_19.pdf';
-    this.hotelExp = 'Banquet serving- setting up, serving, and breaking down meetings rooms both at the hotel' +
+    this.hotelExp = 'Banquet serving - setting up, serving, and breaking down meetings rooms both at the hotel' +
         ' and off-site for 10-500 guests. Assisted with plated meals, buffets, speed service meals, ' +
         'coffee breaks, and food breaks for various types of events ranging from rehearsal dinners to large conferences.';
     this.cWaymanExp = 'Floral- assisting in assembling all different sizes of floral arrangements for various ' +

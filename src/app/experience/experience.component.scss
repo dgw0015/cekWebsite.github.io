@@ -107,7 +107,7 @@
 .timeline::after  {
    content: '';
    position: absolute;
-   width: 6px;
+   width: 4px;
    top: 0;
    bottom: 0;
    left: 50%;
@@ -144,7 +144,7 @@
    position: absolute;
    width: 25px;
    height: 25px;
-   right: -60px;
+   right: -7.9%;
    background-color: white;
    top: 15px;
    border: 4px solid #fdfdfd;
@@ -172,7 +172,7 @@
 
 #hotel   {
    position: absolute;
-   bottom: -25%;
+   bottom: -30%;
    right: 1%;
    width: 50%;
    height: auto;
@@ -225,7 +225,7 @@
    width: 25px;
    height: 25px;
    top: 12px;
-   left: -80px;
+   left: -10.5%;
    background-color: white;
    border: 4px solid #fdfdfd;
    border-radius: 50%;
@@ -260,7 +260,7 @@
    position: absolute;
    width: 25px;
    height: 25px;
-   right: -60px;
+   right: -7.9%;
    background-color: white;
    top: 15px;
    border: 4px solid #fdfdfd;
@@ -314,40 +314,100 @@
 @media screen and (max-width: 1400px) {
 
    .resume-link {
+      font-size: 1.3vw;
+   }
+
+   .experienceBg  {
+      height: 150%;
+   }
+   .experienceBg2 {
+      top: 150%;
+      height: 110%;
+   }
+
+   .page-overlay  {
+      height: 150%;
+   }
+
+   .page-overlay2 {
+      top: 150%;
+      height: 110%;
+   }
+
+   .container1-left {
+      left: 4%;
+      width: 42%;
+   }
+
+   .container1-right {
+    top: 32%;
+    right: 4%;
+    width: 42%;
+    height: auto;
+   }
+
+   .timeline   {
+      height: 127.8%;
+   }
+
+   .container2-left  {
+      top: 61%;
+      left: 4%;
+      width: 42%;
+   }
+
+   .container1-left::after {
+      right: -11.2%;
+      width: 20px;
+      height: 20px;
+   }
+
+   .container1-right::after   {
+      left: -11.6%;
+      width: 20px;
+      height: 20px;
+   }
+
+   .container2-left::after {
+      right: -11.2%;
+      width: 20px;
+      height: 20px;
+   }
+
+   .content {
+      padding: 0 .1vw 0 .1vw;
+   }
+
+   #hotel   {
+      bottom: -40%;
+      width: 45%;
+   }
+
+   #maysaraLogo   {
+      bottom: -30%;
+      width: 35%;
+   }
+
+   #waymanLogo {
+      width: 14%;
+      bottom: -24%;
+   }
+
+   #clickLogo2 {
+      padding-bottom: .5vw;
+   }
+   .lead {
       font-size: 1.2vw;
    }
 
-   h3   {
-      position: absolute;
-      top: 17%;
-      left: 10%;
-      width: 80%;
-      color: greenyellow;
-      font-family: Arial, serif;
-      font-weight: lighter;
-      text-align: center;
-      font-size: 3vw;
-      padding: 0;
-      margin: 0;
+   #slider-title  {
+      top: 156.5%;
+      font-size: 2.8vw;
    }
 
-   .timeline {
-      position: absolute;
-      top: 22.8%;
-      left: 10%;
-      width: 80%;
-      padding-top: 3.5vw;
-      font-family: Arial, serif;
-      background: rgba(0, 0, 0, 0.51);
-      margin: 0 auto;
+   #carouselExampleIndicators {
+      top: 161%;
    }
-
-   .content h2 {
-      font-size: 2.3vw;
-   }
-
-
-
 
 }
 
@@ -358,23 +418,47 @@
       left: 31px;
    }
 
-   .container {
+   .container1-left {
       width: 100%;
       padding-left: 70px;
       padding-right: 25px;
    }
 
-   .container::before {
+   .container1-right {
+      width: 100%;
+      padding-left: 70px;
+      padding-right: 25px;
+   }
+
+   .container2-left  {
+      width: 100%;
+      padding-left: 70px;
+      padding-right: 25px;
+   }
+
+   .container1-left::before {
       left: 60px;
       border-width: 10px 10px 10px 0;
       border-color: transparent white transparent transparent;
    }
 
-   .left::after, .right::after {
+   .container1-right::before {
+      left: 60px;
+      border-width: 10px 10px 10px 0;
+      border-color: transparent white transparent transparent;
+   }
+
+   .container2-left::before {
+      left: 60px;
+      border-width: 10px 10px 10px 0;
+      border-color: transparent white transparent transparent;
+   }
+
+   .container1-left::after, .container2-left::after {
       left: 15px;
    }
 
-   .right {
+   .container1-right::after {
       left: 0;
    }
 }
