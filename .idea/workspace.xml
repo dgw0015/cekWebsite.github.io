@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fb08c2d9-d62d-47e1-9ec1-b284f41c0de5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/angular.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -104,7 +103,7 @@
       <workItem from="1572893741274" duration="10712000" />
       <workItem from="1573079651847" duration="31586000" />
       <workItem from="1573156759498" duration="91000" />
-      <workItem from="1573162145437" duration="176643000" />
+      <workItem from="1573162145437" duration="176718000" />
     </task>
     <task id="LOCAL-00001" summary="Home page and the navigation are complete. Still need to do styling for smaller laptops and cell phone screens.">
       <created>1573156676339</created>
