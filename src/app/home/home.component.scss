@@ -95,12 +95,27 @@
 
 @media screen and(max-width: 1300px)   {
 
+   img#home-bg   {
+      position: fixed;
+      height: 100%;
+   }
+
+   .page-header   {
+      position: absolute;
+   }
+
    .quote2  {
       visibility: hidden;
+      position: fixed;
+      width: 0;
+      height: 0;
    }
 
    .forest  {
       visibility: hidden;
+      position: fixed;
+      width: 0;
+      height: 0;
    }
 
    .page-header  {
@@ -117,7 +132,6 @@
 
    #homeTxtBox {
       top: 59%;
-
    }
 
    #quoteAuthor   {
