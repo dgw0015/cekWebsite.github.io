@@ -15,17 +15,17 @@
    color: white;
    font-size: 3.8vw;
    margin: 0 0 6vw 0;
-   padding: .5vw 1.6vw .8vw 1.6vw;
    border: 1px solid white;
+   padding: .5vw 1.6vw .8vw 1.6vw;
 }
 
 .content-container   {
    position: fixed;
-   top: 17%;
+   top: 7vw;
    left: 21%;
    width: 58%;
-   height: 80%;
-   padding: 1vw;
+   height: 42vw;
+   padding: .5vw;
 }
 
 .skills-list   {
@@ -37,12 +37,32 @@
 }
 
 .lead {
-   font-size: 1.1vw;
+   font-size: 1.2vw;
    padding-bottom: 1vw;
 }
 
 .mobile-content-container  {
    visibility: hidden;
+}
+
+#lastQ .lead   {
+   padding-bottom: .2vw;
+}
+
+@media only screen and(max-width: 1280px) and (min-height: 800px)   {
+
+   .content-container   {
+      top: 10vw;
+   }
+
+   .questions  {
+      font-size: 1.9vw;
+   }
+
+   .lead {
+      font-size: 1.5vw;
+      padding: .5vw;
+   }
 }
 
 @media screen and(max-width: 576px) {

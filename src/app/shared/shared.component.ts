@@ -387,29 +387,4 @@ export class SharedComponent implements OnInit {
     this.renderer.setStyle(nonActiveElement, 'visibility', 'hidden');
   }
 
-  // toggleHideElement(): void {
-  //   let el;
-  //   if (this.getActive() === 'home')  {
-  //     el = 'header';
-  //     const element: HTMLElement = document.getElementById(el);
-  //     this.renderer.setStyle(element, 'visibility', 'hidden');
-  //   }
-  //   else if (this.getActive() === 'about')  {
-  //     el = 'about-header';
-  //     const element: HTMLElement = document.getElementById(el);
-  //     this.renderer.setStyle(element, 'visibility', 'hidden');
-  //   }
-  //   else if (this.getActive() === 'skills') {
-  //     el = 'skills-header';
-  //     const element: HTMLElement = document.getElementById(el);
-  //     this.renderer.setStyle(element, 'visibility', 'hidden');
-  //   }
-  //   else {
-  //     el = 'education-header';
-  //     const element: HTMLElement = document.getElementById(el);
-  //     this.renderer.setStyle(element, 'visibility', 'hidden');
-  //   }
-  //
-  // }
-
 }
