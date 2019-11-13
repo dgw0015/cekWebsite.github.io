@@ -1,7 +1,97 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fb08c2d9-d62d-47e1-9ec1-b284f41c0de5" name="Default Changelist" comment="" />
+    <list default="true" id="fb08c2d9-d62d-47e1-9ec1-b284f41c0de5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/docs/3rdpartylicenses.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/assets/Centerpieces.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/assets/Charlton Resume updated 10_14_19.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/assets/Color Scheme .pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/assets/images/AU-hotel-img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/assets/images/About-background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/assets/images/C.Wayman-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/assets/images/CEK-transparent.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/assets/images/FrenchLaundry.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/assets/images/Maysara-img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/assets/images/Mountains.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/assets/images/Samford-Hall-Auburn-University.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/assets/images/SamfordHall.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/assets/images/SamfordHallDark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/assets/images/Top-15-wine.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/assets/images/about-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/assets/images/aubie-transparent.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/assets/images/blk.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/assets/images/clouds.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/assets/images/cooking.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/assets/images/emerge 3.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/assets/images/emerge.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/assets/images/event.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/assets/images/extraBg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/assets/images/floral.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/assets/images/fog-low.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/assets/images/hearts.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/assets/images/hiking Asheville 2.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/assets/images/hiking asheville.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/assets/images/hiking denver.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/assets/images/interestBg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/assets/images/masterSom.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/assets/images/me.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/assets/images/menu1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/assets/images/milanote.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/assets/images/milanote2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/assets/images/navy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/assets/images/onTheWater.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/assets/images/outsideEvent.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/assets/images/overlayBg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/assets/images/pieChartRef.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/assets/images/plate.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/assets/images/quote.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/assets/images/reception-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/assets/images/rolledToomers.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/assets/images/roseBg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/assets/images/skillsBg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/assets/images/sorority 1.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/assets/images/sorority 2.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/assets/images/spaceLights.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/assets/images/spartan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/assets/images/tableSetting.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/assets/images/tableSetting2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/assets/images/toomersDark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/assets/images/white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/assets/images/writing.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/assets/mobile-imgs/Auburn.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/assets/mobile-imgs/AuburnLogo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/assets/mobile-imgs/about.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/assets/mobile-imgs/forest.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/assets/mobile-imgs/mobile-roses.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/assets/mobile-imgs/natureBg2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/assets/mobile-imgs/pencil.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/assets/mobile-imgs/quote.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/fa-brands-400.06147b6cd88c7346cecd.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/fa-brands-400.5063b105c7646c8043d5.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/fa-brands-400.a9c4bb7348f42626454c.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/fa-brands-400.c5e0f14f88a828261ba0.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/fa-brands-400.cccc9d29470e879e40eb.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/fa-regular-400.65b286af947c0d982ca0.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/fa-regular-400.7b9568e6389b1f8ae090.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/fa-regular-400.c1a866ec0e04a5e1915b.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/fa-regular-400.c4f508e7c4f01a9eeba7.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/fa-regular-400.f5f2566b93e89391da4d.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/fa-solid-900.0bff33a5fd7ec3902354.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/fa-solid-900.333bae208dc363746961.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/fa-solid-900.44d537ab79f921fde5a2.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/fa-solid-900.8e4a6dcc692b3887f9f5.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/fa-solid-900.c2801fb415f03c7b1709.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/main-es2015.72bb59ec336cf90e722c.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/main-es5.72bb59ec336cf90e722c.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/polyfills-es2015.0ef207fb7b4761464817.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/polyfills-es5.2b9ce34c123ac007a8ba.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/runtime-es2015.e8a2810b3b08d6a1b6aa.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/runtime-es5.e8a2810b3b08d6a1b6aa.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/styles.ca6cb4967fbe0bfa04a6.css" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +120,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../paper-kit-2-angular-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/docs" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -41,6 +131,9 @@
     <property name="ts.external.directory.path" value="C:\Users\Drew Waller\Documents\cekWebsite.github.io\node_modules\typescript\lib" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Drew Waller\Documents\cekWebsite.github.io\docs" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Drew Waller\Documents\cekWebsite.github.io\src\app\mobile\shared" />
       <recent name="C:\Users\Drew Waller\Documents\cekWebsite.github.io\src\app\mobile" />
@@ -101,7 +194,7 @@
       <workItem from="1572893741274" duration="10712000" />
       <workItem from="1573079651847" duration="31586000" />
       <workItem from="1573156759498" duration="91000" />
-      <workItem from="1573162145437" duration="178321000" />
+      <workItem from="1573162145437" duration="178656000" />
     </task>
     <task id="LOCAL-00001" summary="Home page and the navigation are complete. Still need to do styling for smaller laptops and cell phone screens.">
       <created>1573156676339</created>
