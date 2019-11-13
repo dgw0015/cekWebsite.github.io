@@ -46,7 +46,7 @@
 <img [src]="aboutBg2" alt="picture of Charlton at a vineyard" class="aboutBg2" />
 
 
-<img [src]="natureBg2" alt="Autumn Trees" class="natureBg2"/>
+<!--<img [src]="natureBg2" alt="Autumn Trees" class="natureBg2"/>-->
 <div class="mobile-aboutBox" *ngIf="width <= 580">
    <div class="jumbotron">
       <h1 class="display-4">Hi, I'm Charlton Kam</h1>
@@ -82,4 +82,13 @@
          computer for more site features and information.
       </p>
    </div>
+   <div class="media-links-cell">
+      <a class="pinterestLink" target="_blank"
+         [href]="pinterest"><i class="fab fa-pinterest" id="firstLink-cell"></i></a>
+      <a class="linkedLink" target="_blank"
+         [href]="linkedin"><i class="fab fa-linkedin"></i></a>
+      <a class="facebookLink" target="_blank"
+         [href]="facebook"><i class="fab fa-facebook" id="lastLink-cell"></i></a>
+   </div>
 </div>
+

@@ -3,10 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="fb08c2d9-d62d-47e1-9ec1-b284f41c0de5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/education/education.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/education/education.component.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/shared/shared.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/shared/shared.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/skills/skills.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/skills/skills.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/skills/skills.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/skills/skills.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/about/about.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/about/about.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/about/about.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/about/about.component.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -113,7 +111,7 @@
       <workItem from="1573162145437" duration="179244000" />
       <workItem from="1573634214532" duration="2703000" />
       <workItem from="1573660701217" duration="55000" />
-      <workItem from="1573663603901" duration="6396000" />
+      <workItem from="1573663603901" duration="8763000" />
     </task>
     <task id="LOCAL-00001" summary="Home page and the navigation are complete. Still need to do styling for smaller laptops and cell phone screens.">
       <created>1573156676339</created>
