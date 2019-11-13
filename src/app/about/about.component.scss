@@ -151,7 +151,7 @@ h1 {
    .aboutBg2   {
       visibility: visible;
       position: absolute;
-      top: 15vw;
+      top: 14vw;
       width: 100%;
       height: auto;
       z-index: -1;
@@ -182,7 +182,7 @@ h1 {
 
    .mobile-aboutBox  {
       position: absolute;
-      top: 155vw;
+      top: 154vw;
       width: 100%;
       height: auto;
       padding: 2px;
@@ -193,7 +193,7 @@ h1 {
    }
 
    .media-links-cell a #firstLink-cell  {
-      padding-left: 22%;
+      padding-left: 23%;
    }
 
    .media-links-cell   {
@@ -205,16 +205,15 @@ h1 {
       height: 17vw;
       margin: 2px 1px 1px 1px;
       z-index: 1;
-      background-color: black;
+      background-color: #cdd0d2;
    }
 
    .media-links-cell i {
       float: left;
       font-size: 11vw;
       z-index: 1;
-      color: white;
+      color: black;
       padding: 3vw 20px 3vw 20px;
-
    }
 
 }
