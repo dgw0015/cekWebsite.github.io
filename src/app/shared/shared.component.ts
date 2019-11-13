@@ -64,7 +64,8 @@ import {Component, OnInit, Renderer2} from '@angular/core';
       <div class="overlay-navLinks" *ngIf="getActive() === 'home'">
         <div class="link" id="top-link">
           <a target="_self"
-             [routerLink]="['/home']" id="active"><h1 class="display-3">Home</h1></a>
+             [routerLink]="['/home']" id="active"><h1 class="display-3">Home</h1>
+          </a>
         </div>
         <div class="link">
           <a target="_self"

@@ -2,15 +2,15 @@
 .rosesBg   {
    position: absolute;
    width: 100%;
-   height: 130%;
+   height: 80vw;
    z-index: -2;
 }
 
 .rosesBg2   {
    position: absolute;
-   top: 130%;
+   top: 80vw;
    width: 100%;
-   height: 130%;
+   height: 55vw;
    transform: rotate(180deg);
    z-index: -2;
 }
@@ -36,6 +36,7 @@
 .floralDesign  {
    float: left;
    margin-left: 6.5%;
+   margin-top: 3.5vw;
    width: 42%;
    height: auto;
    color: white;
@@ -46,6 +47,7 @@
 
 .culinary   {
    float: right;
+   margin-top: 3.5vw;
    margin-right: 6.5%;
    width: 42%;
    height: auto;
@@ -68,19 +70,20 @@
 
 .pieChart   {
    position: absolute;
-   top: 107%;
+   top: 53vw;
    left: 3%;
-   width: 24%;
+   width: 20vw;
    height: auto;
    background-color: rgba(255, 255, 255, 0.52);
    border-radius: 40px;
+   cursor: pointer;
 }
 
 .masterSom  {
    position: absolute;
-   top: 108%;
+   top: 53vw;
    right: 3%;
-   width: 24%;
+   width: 20vw;
    height: auto;
    border-radius: 40px;
 }
@@ -98,17 +101,17 @@
 
 #carouselExampleFade {
    position: absolute;
-   top: 165%;
+   top: 85vw;
    left: 10%;
    width: 90%;
-   max-height: 773px;
+   max-height: 41vw;
    padding: 0;
    margin: 0;
 }
 
 .carousel-item {
    width: 90%;
-   max-height: 773px;
+   max-height: 41vw;
    margin: 1vw;
 }
 
@@ -118,38 +121,10 @@
 
 @media screen and(max-width: 1400px)   {
 
-   .rosesBg {
-      height: 155%;
-   }
-
-   .rosesBg2   {
-      top: 155%;
-      height: 140%;
-   }
-
    .display-3  {
       font-size: 4vw;
    }
 
-   .pageTitleBox  {
-      padding-bottom: 3vw;
-   }
-
-   .floralDesign  {
-      width: 87%;
-      margin-bottom: 1vw;
-   }
-
-   .culinary   {
-      width: 87%;
-      margin-bottom: 1vw;
-   }
-
-   .wine {
-      margin-left: 6.5%;
-      width: 87%;
-      margin-bottom: 1vw;
-   }
 
    .blockquote {
       margin: 0;
@@ -159,29 +134,6 @@
 
    .lead {
       font-size: 1.3vw;
-   }
-
-   .pieChart   {
-      top: 152%;
-      left: 29%;
-      width: 20%;
-      height: 38%;
-   }
-
-   .masterSom  {
-      top: 152%;
-      right: 29%;
-      width: 20%;
-      height: 38%;
-   }
-
-   #carouselExampleFade {
-      top: 195%;
-      max-height: 515px;
-   }
-
-   .carousel-item {
-      max-height: 515px;
    }
 
 }
