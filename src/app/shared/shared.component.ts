@@ -43,7 +43,8 @@ import {Component, OnInit, Renderer2} from '@angular/core';
         </nav>
       </div>
     </div>
-      
+     
+    <!-- Navigation for desktops and laptops. -->
     <div *ngIf="screenWidth > 576" id="nav" class="overlay">
       <a href="javascript:void(0)" class="close-btn"
          (click)="closeNav('nav')">&times;
@@ -57,7 +58,7 @@ import {Component, OnInit, Renderer2} from '@angular/core';
       <img [src]="fogExtra" alt="low floating fog" id="extra"/>
       <img [src]="fogInterest" alt="low floating fog" id="interest"/>
       <img [src]="fogSkills" alt="low floating fog" id="skills"/>
-
+      <img [src]="fogSamples" alt="low floating fog" id="writingSamples" />
 
 
       <!-- Navigation when home is the active page. -->
@@ -91,6 +92,10 @@ import {Component, OnInit, Renderer2} from '@angular/core';
           <a target="_self"
              [routerLink]="['/skills']" (click)="setActive('skills', 'home')"><h1 class="display-3">Skills</h1></a>
         </div>
+        <div class="link" id="samplesLink">
+          <a target="_self"
+             [routerLink]="['/writing/samples']" (click)="setActive('writingSamples', 'home')"><h1 class="display-3">Writing Samples</h1></a>
+        </div>
       </div>
 
       <!-- Navigation when about is the active page. -->
@@ -122,6 +127,10 @@ import {Component, OnInit, Renderer2} from '@angular/core';
         <div class="link">
           <a target="_self"
              [routerLink]="['/skills']" (click)="setActive('skills', 'about')"><h1 class="display-3">Skills</h1></a>
+        </div>
+        <div class="link" id="samplesLink">
+          <a target="_self"
+             [routerLink]="['/writing/samples']" (click)="setActive('writingSamples', 'about')"><h1 class="display-3">Writing Samples</h1></a>
         </div>
       </div>
 
@@ -155,6 +164,10 @@ import {Component, OnInit, Renderer2} from '@angular/core';
           <a target="_self"
              [routerLink]="['/skills']" (click)="setActive('skills', 'education')"><h1 class="display-3">Skills</h1></a>
         </div>
+        <div class="link" id="samplesLink">
+          <a target="_self"
+             [routerLink]="['/writing/samples']" (click)="setActive('writingSamples', 'education')"><h1 class="display-3">Writing Samples</h1></a>
+        </div>
       </div>
 
       <!-- Navigation when experience is the active page. -->
@@ -186,6 +199,10 @@ import {Component, OnInit, Renderer2} from '@angular/core';
         <div class="link">
           <a target="_self"
              [routerLink]="['/skills']" (click)="setActive('skills', 'experience')"><h1 class="display-3">Skills</h1></a>
+        </div>
+        <div class="link" id="samplesLink">
+          <a target="_self"
+             [routerLink]="['/writing/samples']" (click)="setActive('writingSamples', 'experience')"><h1 class="display-3">Writing Samples</h1></a>
         </div>
       </div>
 
@@ -219,6 +236,10 @@ import {Component, OnInit, Renderer2} from '@angular/core';
           <a target="_self"
              [routerLink]="['/skills']" (click)="setActive('skills', 'extra')"><h1 class="display-3">Skills</h1></a>
         </div>
+        <div class="link" id="samplesLink">
+          <a target="_self"
+             [routerLink]="['/writing/samples']" (click)="setActive('writingSamples', 'extra')"><h1 class="display-3">Writing Samples</h1></a>
+        </div>
       </div>
 
       <!-- Navigation when interest is the active page. -->
@@ -250,6 +271,10 @@ import {Component, OnInit, Renderer2} from '@angular/core';
         <div class="link">
           <a target="_self"
              [routerLink]="['/skills']" (click)="setActive('skills', 'interest')"><h1 class="display-3">Skills</h1></a>
+        </div>
+        <div class="link" id="samplesLink">
+          <a target="_self"
+             [routerLink]="['/writing/samples']" (click)="setActive('writingSamples', 'interest')"><h1 class="display-3">Writing Samples</h1></a>
         </div>
       </div>
 
@@ -283,37 +308,45 @@ import {Component, OnInit, Renderer2} from '@angular/core';
           <a target="_self"
              [routerLink]="['/skills']" id="active"><h1 class="display-3">Skills</h1></a>
         </div>
+        <div class="link" id="samplesLink">
+          <a target="_self"
+             [routerLink]="['/writing/samples']" (click)="setActive('writingSamples', 'interest')"><h1 class="display-3">Writing Samples</h1></a>
+        </div>
       </div>
 
-      <!-- Navigation when contact is the active page. -->
-      <div class="overlay-navLinks" *ngIf="getActive() === 'contact'">
+      <!-- Navigation when writing samples is the active page. -->
+      <div class="overlay-navLinks" *ngIf="getActive() === 'writingSamples'">
         <div class="link" id="top-link">
           <a target="_self"
-             [routerLink]="['/home']" (click)="setActive('home', 'contact')"><h1 class="display-3">Home</h1></a>
+             [routerLink]="['/home']" (click)="setActive('home', 'writingSamples')"><h1 class="display-3">Home</h1></a>
         </div>
         <div class="link">
           <a target="_self"
-             [routerLink]="['/about']" (click)="setActive('about', 'contact')"><h1 class="display-3">About</h1></a>
+             [routerLink]="['/about']" (click)="setActive('about', 'writingSamples')"><h1 class="display-3">About</h1></a>
         </div>
         <div class="link">
           <a target="_self"
-             [routerLink]="['/education']" (click)="setActive('education', 'contact')"><h1 class="display-3">Education</h1></a>
+             [routerLink]="['/education']" (click)="setActive('education', 'writingSamples')"><h1 class="display-3">Education</h1></a>
         </div>
         <div class="link">
           <a target="_self"
-             [routerLink]="['/experience']" (click)="setActive('experience', 'contact')"><h1 class="display-3">Experience</h1></a>
+             [routerLink]="['/experience']" (click)="setActive('experience', 'writingSamples')"><h1 class="display-3">Experience</h1></a>
         </div>
         <div class="link">
           <a target="_self"
-             [routerLink]="['/extracurricular']" (click)="setActive('extra', 'contact')"><h1 class="display-3">Extracurricular</h1></a>
+             [routerLink]="['/extracurricular']" (click)="setActive('extra', 'writingSamples')"><h1 class="display-3">Extracurricular</h1></a>
         </div>
         <div class="link">
           <a target="_self"
-             [routerLink]="['/interest']" (click)="setActive('interest', 'contact')"><h1 class="display-3">Interests</h1></a>
+             [routerLink]="['/interest']" (click)="setActive('interest', 'writingSamples')"><h1 class="display-3">Interests</h1></a>
         </div>
         <div class="link">
           <a target="_self"
-             [routerLink]="['/skills']" (click)="setActive('skills', 'contact')"><h1 class="display-3">Skills</h1></a>
+             [routerLink]="['/skills']" (click)="setActive('skills', 'writingSamples')"><h1 class="display-3">Skills</h1></a>
+        </div>
+        <div class="link" id="samplesLink">
+          <a target="_self"
+             [routerLink]="['/writing/samples']" id="active"><h1 class="display-3">Writing Samples</h1></a>
         </div>
       </div>
 
@@ -321,6 +354,14 @@ import {Component, OnInit, Renderer2} from '@angular/core';
     <!-- Menu button in the upper left corner. -->
     <div class="topHeader">
       <div class="open-btn" (click)="openNav('nav')"><i class="fas fa-bars"></i> Menu</div>
+    </div>
+    <div class="media-links">
+      <a class="pinterestLink" target="_blank"
+         [href]="pinterest"><i class="fab fa-pinterest"></i></a>
+      <a class="linkedLink" target="_blank"
+         [href]="linkedin"><i class="fab fa-linkedin"></i></a>
+      <a class="facebookLink" target="_blank"
+         [href]="facebook"><i class="fab fa-facebook"></i></a>
     </div>
   `,
   styleUrls: ['./shared.component.scss']
@@ -336,6 +377,10 @@ export class SharedComponent implements OnInit {
   fogExtra: string;
   fogInterest: string;
   fogSkills: string;
+  fogSamples: string;
+  linkedin: string;
+  pinterest: string;
+  facebook: string;
   screenWidth: any;
 
   constructor(private renderer: Renderer2) {
@@ -347,6 +392,11 @@ export class SharedComponent implements OnInit {
     this.fogExtra = './assets/images/fog-low.png';
     this.fogInterest = './assets/images/fog-low.png';
     this.fogSkills = './assets/images/fog-low.png';
+    this.fogSamples = './assets/images/fog-low.png';
+    this.facebook = 'https://www.facebook.com/charlton.kam';
+    this.linkedin = 'https://www.linkedin.com/in/charlton-kam-ba81b5176/';
+    this.pinterest = 'https://www.pinterest.com/auburnthunder17/';
+
   }
 
   ngOnInit() {

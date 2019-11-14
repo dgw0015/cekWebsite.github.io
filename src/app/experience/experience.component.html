@@ -2,7 +2,6 @@
 <img [src]="lightsBg" alt="Maysara sunset in Oregon" class="experienceBg2" />
 
 <div class="page-overlay"></div>
-<div class="page-overlay2"></div>
 
 <div class="resume">
    <a class="resume-link" [href]="resumeDownloadLink" download>
@@ -16,32 +15,46 @@
 <div class="timeline">
    <div class="container1-left">
       <div class="content">
-         <p class="blockquote"><b>The Hotel at Auburn University, April 2018 - May 2019</b></p>
-         <p class="lead">{{hotelExp}}</p>
-         <p class="lead" id="clickLogo">Click the logo to visit their site.</p>
-         <a class="link" target="_blank" [href]="AuHotelLink">
-            <img [src]="AuHotelLogo" alt="auburn hotel website link" id="hotel" />
-         </a>
-      </div>
-   </div>
-   <div class="container1-right">
-      <div class="content">
-         <p class="blockquote"><b>C.Wayman Floral & Events, March 2018 - Present</b></p>
+         <p class="blockquote">
+            <a target="_blank" href="https://www.cwayman.com/">
+               <b>C.Wayman Floral & Events</b></a><b>,March 2018 - Present</b>
+         </p>
          <p class="lead">{{cWaymanExp}}</p>
          <br>
-         <p class="lead" id="clickLogo2">Click the logo to visit their site.</p>
+         <p class="lead" id="clickLogo2"></p>
          <a class="link" target="_blank" [href]="cWaymanLink">
             <img [src]="cWaymanLogo" alt="logo for c.wayman site" id="waymanLogo"/></a>
       </div>
    </div>
-   <div class="container2-left">
+   <div class="container1-right">
       <div class="content">
-         <p class="blockquote"><b>Maysara Winery, May 2019 - August 2019</b></p>
+         <p class="blockquote">
+            <a target="_blank" href="https://maysara.com/">
+               <b>Maysara Winery</b>
+            </a>
+            <b>, May 2019 - August 2019</b>
+         </p>
          <p class="lead">{{maysaraExp}}</p>
-         <p class="lead" id="clickLogo3">Click the logo to visit their site.</p>
+         <p class="lead" id="clickLogo3"></p>
          <a class="link" target="_blank" [href]="maysaraLink">
             <img [src]="maysaraLogo" alt="maysara winery logo" id="maysaraLogo"/></a>
       </div>
+   </div>
+   <div class="container2-left">
+      <div class="content">
+         <p class="blockquote">
+            <a target="_blank" href="https://www.auhcc.com/">
+               <b>The Hotel at Auburn University</b>
+            </a>
+            <b>, April 2018 - May 2019</b>
+         </p>
+         <p class="lead">{{hotelExp}}</p>
+         <p class="lead" id="clickLogo"></p>
+         <a class="link" target="_blank" [href]="AuHotelLink">
+            <img [src]="AuHotelLogo" alt="auburn hotel website link" id="hotel" />
+         </a>
+      </div>
+
    </div>
 </div><!--Timeline closing-->
 

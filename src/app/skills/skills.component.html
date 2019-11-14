@@ -4,15 +4,19 @@
 
 <div class="content-container">
    <ul class="skills-list">
-      <li class="questions">What is social tables?
+      <li class="questions">What is <a target="_blank" [href]="socialTables">socialtables?</a>
          <ul>
             <li class="lead">
                Social Tables is an event diagramming, seating, design and check-in
                products providing innovative solutions to handle complex problems.
             </li>
+            <li class="lead">
+               I’ve used social tables to create multiple diagrams for registration areas, dinner,
+               reception, silent auction, etc. for my Hospitality Catering and Event Management class.
+            </li>
          </ul>
       </li>
-      <li class="questions">What is 3D event designer?
+      <li class="questions">What is <a target="_blank" [href]="event3dDesigner">3D Event Designer?</a>
          <ul>
             <li class="lead">
                3D Event Designer is a 3D software that lets you create life-like floorplans,
@@ -20,12 +24,21 @@
                It is best used for vendors and clients who want to create a 3D model of
                their venue.
             </li>
+            <li class="lead">
+               I used this tool to create 3d layouts for a dinner for my Hospitality Catering and
+               Event Management class that includes a stage, silverware, glassware, napkins, décor, etc.
+            </li>
          </ul>
       </li>
       <li class="questions">What is Millanote?
          <ul>
             <li class="lead">
                It is an easy-to-use tool to organize your ideas and projects into visual boards.
+            </li>
+            <li class="lead">
+               I used this tool to create a visual design presentation for my Catering and Event Management
+               class that included each aspect of an event from diagrams to examples of floral and décor to
+               table linens.
             </li>
          </ul>
       </li>
@@ -46,6 +59,12 @@
          </ul>
       </li>
    </ul>
+   <div class="link-to-samples">
+      <p class="lead" id="writingSamples-link">
+         <a class="writing-samples" target="_self" [routerLink]="['/writing/samples']">Click here for writing samples.
+         </a>
+      </p>
+   </div>
 </div>
 
 <!-- HTML for mobile devices -->

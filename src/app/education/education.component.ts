@@ -1,4 +1,4 @@
-import {Component, OnInit, Renderer2} from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 
 
 
@@ -13,14 +13,19 @@ export class EducationComponent implements OnInit {
   auburnLogo: string;
   aubie: string;
   mobilDeviceBg: string;
+  servSafeLink: string;
+  logo: string;
   width: any;
 
-  constructor(private renderer: Renderer2) {
+  constructor() {
     this.educationBg = './assets/images/Samford-Hall-Auburn-University.jpg';
     this.auburnLogo = './assets/mobile-imgs/AuburnLogo.png';
     this.secondBackground = './assets/images/rolledToomers.jpg';
     this.aubie = './assets/images/aubie-transparent.png';
     this.mobilDeviceBg = './assets/mobile-imgs/Auburn.jpg';
+    this.servSafeLink = './assets/ServSafe Certification.pdf';
+    this.logo = './assets/images/logo.png';
+
   }
 
   ngOnInit() {

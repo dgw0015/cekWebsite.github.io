@@ -20,11 +20,11 @@
 }
 
 .content-container   {
-   position: fixed;
-   top: 7vw;
+   position: absolute;
+   top: 10vw;
    left: 21%;
    width: 58%;
-   height: 42vw;
+   height: 60vw;
    padding: .5vw;
 }
 
@@ -49,11 +49,20 @@
    padding-bottom: .2vw;
 }
 
-@media only screen and(max-width: 1280px) and (min-height: 800px)   {
+.link-to-samples  {
+   width: 100%;
+   text-align: center;
+}
 
-   .content-container   {
-      top: 10vw;
-   }
+#writingSamples-link {
+   font-size: 1.7vw;
+}
+
+.link-to-samples a   {
+   color: #d27527;
+}
+
+@media only screen and(max-width: 1280px) and (min-height: 800px)   {
 
    .questions  {
       font-size: 1.9vw;
