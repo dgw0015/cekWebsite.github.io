@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="fb08c2d9-d62d-47e1-9ec1-b284f41c0de5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/shared/shared.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/shared/shared.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/home/home.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/home/home.component.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -111,7 +111,7 @@
       <workItem from="1573634214532" duration="2703000" />
       <workItem from="1573660701217" duration="55000" />
       <workItem from="1573663603901" duration="10370000" />
-      <workItem from="1573699207090" duration="14627000" />
+      <workItem from="1573699207090" duration="15191000" />
     </task>
     <task id="LOCAL-00001" summary="Home page and the navigation are complete. Still need to do styling for smaller laptops and cell phone screens.">
       <created>1573156676339</created>
