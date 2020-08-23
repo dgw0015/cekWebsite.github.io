@@ -1,4 +1,3 @@
-import {AngularFontAwesomeModule} from 'angular-font-awesome';
 import { NgModule } from '@angular/core';
 import {BrowserModule} from '@angular/platform-browser';
 
@@ -12,7 +11,6 @@ import { InterestComponent } from './interest/interest.component';
 import { SharedComponent } from './shared/shared.component';
 import { AppRoutingModule } from './app-routing.module';
 import { HttpClientModule } from '@angular/common/http';
-import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { SkillsComponent } from './skills/skills.component';
 import { WritingSamplesComponent } from './writing-samples/writing-samples.component';
 import {ScreenSizeService} from './screenSize.service';
@@ -35,8 +33,6 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
   imports: [
       BrowserModule,
       AppRoutingModule,
-      AngularFontAwesomeModule,
-      NgbModule,
       HttpClientModule,
       BrowserAnimationsModule
       ],
