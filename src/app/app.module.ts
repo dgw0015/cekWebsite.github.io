@@ -16,6 +16,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { SkillsComponent } from './skills/skills.component';
 import { WritingSamplesComponent } from './writing-samples/writing-samples.component';
 import {ScreenSizeService} from './screenSize.service';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 
 @NgModule({
@@ -36,7 +37,8 @@ import {ScreenSizeService} from './screenSize.service';
       AppRoutingModule,
       AngularFontAwesomeModule,
       NgbModule,
-      HttpClientModule
+      HttpClientModule,
+      BrowserAnimationsModule
       ],
   providers: [ScreenSizeService],
   bootstrap: [AppComponent]
