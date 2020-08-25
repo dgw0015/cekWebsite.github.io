@@ -49,18 +49,6 @@ import {Component, OnInit, Renderer2} from '@angular/core';
       <a href="javascript:void(0)" class="close-btn"
          (click)="closeNav('nav')">&times;
       </a>
-      <img [src]="overlayBg" class="overlay-bg" alt="background for the overlay menu"/>
-
-      <img [src]="fog" alt="low floating fog" id="home"/>
-      <img [src]="fogAbout" alt="low floating fog" id="about"/>
-      <img [src]="fogEducation" alt="low floating fog" id="education"/>
-      <img [src]="fogExperience" alt="low floating fog" id="experience"/>
-      <img [src]="fogExtra" alt="low floating fog" id="extra"/>
-      <img [src]="fogInterest" alt="low floating fog" id="interest"/>
-      <img [src]="fogSkills" alt="low floating fog" id="skills"/>
-      <img [src]="fogSamples" alt="low floating fog" id="writingSamples" />
-
-
       <!-- Navigation when home is the active page. -->
       <div class="overlay-navLinks" *ngIf="getActive() === 'home'">
         <div class="link" id="top-link">
@@ -95,6 +83,10 @@ import {Component, OnInit, Renderer2} from '@angular/core';
         <div class="link" id="samplesLink">
           <a target="_self"
              [routerLink]="['/writing/samples']" (click)="setActive('writingSamples', 'home')"><h1 class="display-3">Writing Samples</h1></a>
+        </div>
+        <div class="link" id="culinary">
+          <a target="_blank" href="placeholder" rel="culinaryBlogPage"><h1 class="display-3">Culinary Page</h1>
+          </a>
         </div>
       </div>
 
@@ -132,6 +124,10 @@ import {Component, OnInit, Renderer2} from '@angular/core';
           <a target="_self"
              [routerLink]="['/writing/samples']" (click)="setActive('writingSamples', 'about')"><h1 class="display-3">Writing Samples</h1></a>
         </div>
+        <div class="link" id="culinary">
+          <a target="_blank" href="placeholder" rel="culinaryBlogPage"><h1 class="display-3">Culinary Page</h1>
+          </a>
+        </div>
       </div>
 
       <!-- Navigation when education is the active page. -->
@@ -167,6 +163,10 @@ import {Component, OnInit, Renderer2} from '@angular/core';
         <div class="link" id="samplesLink">
           <a target="_self"
              [routerLink]="['/writing/samples']" (click)="setActive('writingSamples', 'education')"><h1 class="display-3">Writing Samples</h1></a>
+        </div>
+        <div class="link" id="culinary">
+          <a target="_blank" href="placeholder" rel="culinaryBlogPage"><h1 class="display-3">Culinary Page</h1>
+          </a>
         </div>
       </div>
 
@@ -204,6 +204,10 @@ import {Component, OnInit, Renderer2} from '@angular/core';
           <a target="_self"
              [routerLink]="['/writing/samples']" (click)="setActive('writingSamples', 'experience')"><h1 class="display-3">Writing Samples</h1></a>
         </div>
+        <div class="link" id="culinary">
+          <a target="_blank" href="placeholder" rel="culinaryBlogPage"><h1 class="display-3">Culinary Page</h1>
+          </a>
+        </div>
       </div>
 
       <!-- Navigation when extracurricular is the active page. -->
@@ -239,6 +243,10 @@ import {Component, OnInit, Renderer2} from '@angular/core';
         <div class="link" id="samplesLink">
           <a target="_self"
              [routerLink]="['/writing/samples']" (click)="setActive('writingSamples', 'extra')"><h1 class="display-3">Writing Samples</h1></a>
+        </div>
+        <div class="link" id="culinary">
+          <a target="_blank" href="placeholder" rel="culinaryBlogPage"><h1 class="display-3">Culinary Page</h1>
+          </a>
         </div>
       </div>
 
@@ -276,6 +284,10 @@ import {Component, OnInit, Renderer2} from '@angular/core';
           <a target="_self"
              [routerLink]="['/writing/samples']" (click)="setActive('writingSamples', 'interest')"><h1 class="display-3">Writing Samples</h1></a>
         </div>
+        <div class="link" id="culinary">
+          <a target="_blank" href="placeholder" rel="culinaryBlogPage"><h1 class="display-3">Culinary Page</h1>
+          </a>
+        </div>
       </div>
 
       <!-- Navigation when skills is the active page. -->
@@ -312,6 +324,10 @@ import {Component, OnInit, Renderer2} from '@angular/core';
           <a target="_self"
              [routerLink]="['/writing/samples']" (click)="setActive('writingSamples', 'interest')"><h1 class="display-3">Writing Samples</h1></a>
         </div>
+        <div class="link" id="culinary">
+          <a target="_blank" href="placeholder" rel="culinaryBlogPage"><h1 class="display-3">Culinary Page</h1>
+          </a>
+        </div>
       </div>
 
       <!-- Navigation when writing samples is the active page. -->
@@ -347,6 +363,10 @@ import {Component, OnInit, Renderer2} from '@angular/core';
         <div class="link" id="samplesLink">
           <a target="_self"
              [routerLink]="['/writing/samples']" id="active"><h1 class="display-3">Writing Samples</h1></a>
+        </div>
+        <div class="link" id="culinary">
+          <a target="_blank" href="placeholder" rel="culinaryBlogPage"><h1 class="display-3">Culinary Page</h1>
+          </a>
         </div>
       </div>
 

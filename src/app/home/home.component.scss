@@ -65,6 +65,7 @@
 
 .forest  {
    visibility: hidden;
+   z-index: -2;
 }
 
 #quoteAuthor   {
@@ -93,7 +94,6 @@
 
    .forest  {
       visibility: hidden;
-      position: fixed;
       width: 0;
       height: 0;
    }
@@ -164,7 +164,7 @@
       top: 29%;
       width: 65%;
       border: none;
-      z-index: -1;
+      z-index: 1;
    }
 
    .forest  {
@@ -182,7 +182,7 @@
 
    #homeTxtBox {
       top: 48%;
-      z-index: -1;
+      z-index: 1;
    }
 
    #quote   {
@@ -196,7 +196,7 @@
       left: 1%;
       width: 98%;
       height: auto;
-      z-index: -1;
+      z-index: 1;
    }
 
    #quoteAuthor   {
