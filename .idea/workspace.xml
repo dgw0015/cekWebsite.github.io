@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fb08c2d9-d62d-47e1-9ec1-b284f41c0de5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/shared/shared.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/shared/shared.component.ts" afterDir="false" />
-    </list>
+    <list default="true" id="fb08c2d9-d62d-47e1-9ec1-b284f41c0de5" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -143,7 +140,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598151917657</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="version 0.">
+      <created>1598321568724</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1598321568724</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -170,13 +174,15 @@
     <MESSAGE value="Personal Website is complete!" />
     <MESSAGE value="Version 8.2.+ working on LOCAL machine again. Now upgrading to version 9." />
     <MESSAGE value="Version 9.1.2 is now working locally. Version migration is complete." />
-    <option name="LAST_COMMIT_MESSAGE" value="Version 9.1.2 is now working locally. Version migration is complete." />
+    <MESSAGE value="version 0." />
+    <option name="LAST_COMMIT_MESSAGE" value="version 0." />
   </component>
   <component name="WindowStateProjectService">
-    <state x="203" y="0" key="CommitChangelistDialog2" timestamp="1598151879247">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state x="305" y="0" key="CommitChangelistDialog2" timestamp="1598321567640">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="203" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1598151879247" />
+    <state x="305" y="0" key="CommitChangelistDialog2/1920.0.1280.693/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1598321567640" />
     <state width="1236" height="296" key="GridCell.Tab.0.bottom" timestamp="1598151056579">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -193,5 +199,9 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1236" height="296" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1598151056579" />
+    <state x="552" y="248" key="Vcs.Push.Dialog.v2" timestamp="1598321571065">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="248" key="Vcs.Push.Dialog.v2/1920.0.1280.693/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1598321571065" />
   </component>
 </project>
