@@ -49,6 +49,9 @@ import {Component, OnInit, Renderer2} from '@angular/core';
       <a href="javascript:void(0)" class="close-btn"
          (click)="closeNav('nav')">&times;
       </a>
+      <img [src]="overlayBg" class="overlay-bg" alt="background for the overlay menu"/>
+
+
       <!-- Navigation when home is the active page. -->
       <div class="overlay-navLinks" *ngIf="getActive() === 'home'">
         <div class="link" id="top-link">
@@ -85,11 +88,10 @@ import {Component, OnInit, Renderer2} from '@angular/core';
              [routerLink]="['/writing/samples']" (click)="setActive('writingSamples', 'home')"><h1 class="display-3">Writing Samples</h1></a>
         </div>
         <div class="link" id="culinary">
-          <a target="_blank" href="placeholder" rel="culinaryBlogPage"><h1 class="display-3">Culinary Page</h1>
+          <a target="_blank" href="https://charlton-culinary.vercel.app/" rel="culinaryBlogPage"><h1 class="display-3">Culinary Page</h1>
           </a>
         </div>
       </div>
-
       <!-- Navigation when about is the active page. -->
       <div class="overlay-navLinks" *ngIf="getActive() === 'about'">
         <div class="link" id="top-link">
@@ -125,11 +127,10 @@ import {Component, OnInit, Renderer2} from '@angular/core';
              [routerLink]="['/writing/samples']" (click)="setActive('writingSamples', 'about')"><h1 class="display-3">Writing Samples</h1></a>
         </div>
         <div class="link" id="culinary">
-          <a target="_blank" href="placeholder" rel="culinaryBlogPage"><h1 class="display-3">Culinary Page</h1>
+          <a target="_blank" href="https://charlton-culinary.vercel.app/" rel="culinaryBlogPage"><h1 class="display-3">Culinary Page</h1>
           </a>
         </div>
       </div>
-
       <!-- Navigation when education is the active page. -->
       <div class="overlay-navLinks" *ngIf="getActive() === 'education'">
         <div class="link" id="top-link">
@@ -165,11 +166,10 @@ import {Component, OnInit, Renderer2} from '@angular/core';
              [routerLink]="['/writing/samples']" (click)="setActive('writingSamples', 'education')"><h1 class="display-3">Writing Samples</h1></a>
         </div>
         <div class="link" id="culinary">
-          <a target="_blank" href="placeholder" rel="culinaryBlogPage"><h1 class="display-3">Culinary Page</h1>
+          <a target="_blank" href="https://charlton-culinary.vercel.app/" rel="culinaryBlogPage"><h1 class="display-3">Culinary Page</h1>
           </a>
         </div>
       </div>
-
       <!-- Navigation when experience is the active page. -->
       <div class="overlay-navLinks" *ngIf="getActive() === 'experience'">
         <div class="link" id="top-link">
@@ -205,11 +205,10 @@ import {Component, OnInit, Renderer2} from '@angular/core';
              [routerLink]="['/writing/samples']" (click)="setActive('writingSamples', 'experience')"><h1 class="display-3">Writing Samples</h1></a>
         </div>
         <div class="link" id="culinary">
-          <a target="_blank" href="placeholder" rel="culinaryBlogPage"><h1 class="display-3">Culinary Page</h1>
+          <a target="_blank" href="https://charlton-culinary.vercel.app/" rel="culinaryBlogPage"><h1 class="display-3">Culinary Page</h1>
           </a>
         </div>
       </div>
-
       <!-- Navigation when extracurricular is the active page. -->
       <div class="overlay-navLinks" *ngIf="getActive() === 'extra'">
         <div class="link" id="top-link">
@@ -245,11 +244,10 @@ import {Component, OnInit, Renderer2} from '@angular/core';
              [routerLink]="['/writing/samples']" (click)="setActive('writingSamples', 'extra')"><h1 class="display-3">Writing Samples</h1></a>
         </div>
         <div class="link" id="culinary">
-          <a target="_blank" href="placeholder" rel="culinaryBlogPage"><h1 class="display-3">Culinary Page</h1>
+          <a target="_blank" href="https://charlton-culinary.vercel.app/" rel="culinaryBlogPage"><h1 class="display-3">Culinary Page</h1>
           </a>
         </div>
       </div>
-
       <!-- Navigation when interest is the active page. -->
       <div class="overlay-navLinks" *ngIf="getActive() === 'interest'">
         <div class="link" id="top-link">
@@ -285,11 +283,10 @@ import {Component, OnInit, Renderer2} from '@angular/core';
              [routerLink]="['/writing/samples']" (click)="setActive('writingSamples', 'interest')"><h1 class="display-3">Writing Samples</h1></a>
         </div>
         <div class="link" id="culinary">
-          <a target="_blank" href="placeholder" rel="culinaryBlogPage"><h1 class="display-3">Culinary Page</h1>
+          <a target="_blank" href="https://charlton-culinary.vercel.app/" rel="culinaryBlogPage"><h1 class="display-3">Culinary Page</h1>
           </a>
         </div>
       </div>
-
       <!-- Navigation when skills is the active page. -->
       <div class="overlay-navLinks" *ngIf="getActive() === 'skills'">
         <div class="link" id="top-link">
@@ -325,11 +322,10 @@ import {Component, OnInit, Renderer2} from '@angular/core';
              [routerLink]="['/writing/samples']" (click)="setActive('writingSamples', 'interest')"><h1 class="display-3">Writing Samples</h1></a>
         </div>
         <div class="link" id="culinary">
-          <a target="_blank" href="placeholder" rel="culinaryBlogPage"><h1 class="display-3">Culinary Page</h1>
+          <a target="_blank" href="https://charlton-culinary.vercel.app/" rel="culinaryBlogPage"><h1 class="display-3">Culinary Page</h1>
           </a>
         </div>
       </div>
-
       <!-- Navigation when writing samples is the active page. -->
       <div class="overlay-navLinks" *ngIf="getActive() === 'writingSamples'">
         <div class="link" id="top-link">
@@ -365,11 +361,22 @@ import {Component, OnInit, Renderer2} from '@angular/core';
              [routerLink]="['/writing/samples']" id="active"><h1 class="display-3">Writing Samples</h1></a>
         </div>
         <div class="link" id="culinary">
-          <a target="_blank" href="placeholder" rel="culinaryBlogPage"><h1 class="display-3">Culinary Page</h1>
+          <a target="_blank" href="https://charlton-culinary.vercel.app/" rel="culinaryBlogPage"><h1 class="display-3">Culinary Page</h1>
           </a>
         </div>
       </div>
-
+    </div>
+    <!-- Menu button in the upper left corner. -->
+    <div class="topHeader">
+      <div class="open-btn" (click)="openNav('nav')"><i class="fas fa-bars"></i> Menu</div>
+    </div>
+    <div class="media-links">
+      <a class="pinterestLink" target="_blank"
+         [href]="pinterest"><i class="fab fa-pinterest"></i></a>
+      <a class="linkedLink" target="_blank"
+         [href]="linkedin"><i class="fab fa-linkedin"></i></a>
+      <a class="facebookLink" target="_blank"
+         [href]="facebook"><i class="fab fa-facebook"></i></a>
     </div>
     <!-- Menu button in the upper left corner. -->
     <div class="topHeader">
@@ -390,29 +397,12 @@ export class SharedComponent implements OnInit {
   overlayBg: string;
   active: string;
   prevActive: string;
-  fog: string;
-  fogAbout: string;
-  fogEducation: string;
-  fogExperience: string;
-  fogExtra: string;
-  fogInterest: string;
-  fogSkills: string;
-  fogSamples: string;
   linkedin: string;
   pinterest: string;
   facebook: string;
   screenWidth: any;
 
   constructor(private renderer: Renderer2) {
-    this.overlayBg = './assets/images/overlayBg.png';
-    this.fog = './assets/images/fog-low.png';
-    this.fogAbout = './assets/images/fog-low.png';
-    this.fogEducation = './assets/images/fog-low.png';
-    this.fogExperience = './assets/images/fog-low.png';
-    this.fogExtra = './assets/images/fog-low.png';
-    this.fogInterest = './assets/images/fog-low.png';
-    this.fogSkills = './assets/images/fog-low.png';
-    this.fogSamples = './assets/images/fog-low.png';
     this.facebook = 'https://www.facebook.com/charlton.kam';
     this.linkedin = 'https://www.linkedin.com/in/charlton-kam-ba81b5176/';
     this.pinterest = 'https://www.pinterest.com/auburnthunder17/';

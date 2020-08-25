@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="fb08c2d9-d62d-47e1-9ec1-b284f41c0de5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/shared/shared.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/shared/shared.component.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/shared/shared.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/shared/shared.component.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
